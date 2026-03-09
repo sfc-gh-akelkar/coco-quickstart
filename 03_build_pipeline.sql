@@ -33,3 +33,5 @@ FROM COCO_DEMO.RAW.CUSTOMERS c
 LEFT JOIN COCO_DEMO.ANALYTICS.STG_ORDERS o
     ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.name, c.region, c.signup_date;
+
+
